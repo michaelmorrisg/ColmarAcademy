@@ -97,6 +97,10 @@ nav ul li a {
   margin-top: 25px;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+}
+#learn-right a {
+  text-decoration: none;
 }
 #start-here-button:hover {
   background-color: white;
@@ -309,6 +313,21 @@ footer ul li:first-child {
 #terms-privacy ul a:hover {
   color: #46bb55;
 }
+.fa {
+  text-decoration: none;
+  color: black;
+}
+.fa:hover {
+  z-index: 2;
+  -webkit-transition: all 100ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 100ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 100ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 100ms ease-in;
+  transform: scale(1.5);
+}
 @media only screen and (max-width: 970px) {
   .banner {
     width: 100%;
@@ -477,5 +496,8 @@ footer ul li:first-child {
 #terms-privacy ul a {
   font-size: 12px;
   font-weight: lighter;
+}
+.fa {
+  display: none;
 }
 }
